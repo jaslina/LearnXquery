@@ -54,3 +54,31 @@ xhttp.send();
 ```
 
 
+### XML Parser
+
+* The XML DOM (Document Object Model) defines the properties and methods for accessing and editing XML.
+
+* However, before an XML document can be accessed, it must be loaded into an XML DOM object.
+
+* All modern browsers have a built-in XML parser that can convert text into an XML DOM object.
+
+* The XML DOM defines a standard way for accessing and manipulating XML documents. It presents an XML document as a tree-structure.
+
+
+### XPath
+
+* XPath is a major element in the XSLT standard.
+
+* XPath can be used to navigate through elements and attributes in an XML document.
+
+* XPath is a syntax for defining parts of an XML document
+
+* XPath uses path expressions to navigate in XML documents
+
+* XPath contains a library of standard functions
+
+* XPath is a major element in XSLT and in XQuery
+
+* XPath is a W3C recommendation
+
+
