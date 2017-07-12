@@ -148,5 +148,26 @@ return $x/title
 
 * XML Schema is an XML-based alternative to DTD:
 
+## XPath
+
+* In XPath, there are seven kinds of nodes: element, attribute, text, namespace, processing-instruction, comment, and document nodes.
+
+* XML documents are treated as trees of nodes. The topmost element of the tree is called the root element.
+
+* XPath uses path expressions to select nodes or node-sets in an XML document. The node is selected by following a path or steps.
+```
+nodename	: Selects all nodes with the name "nodename"
+/	        : Selects from the root node
+//	      : Selects nodes in the document from the current node that match the selection no matter where they are
+.	        : Selects the current node
+..	      : Selects the parent of the current node
+@	        : Selects attributes
+```
+
+#### Predicates
+
+* Predicates are used to find a specific node or a node that contains a specific value.
+
+* Predicates are always embedded in square brackets.
 
 
