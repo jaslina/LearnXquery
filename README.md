@@ -97,4 +97,56 @@ xhttp.send();
 
 * XPath is a W3C recommendation
 
+* XPath expressions can be used in JavaScript, Java, XML Schema, PHP, Python, C and C++, and lots of other languages.
+
+### XSLT -eXtensible Stylesheet Language Transformations
+
+* With XSLT you can transform an XML document into HTML.
+
+* XSLT (eXtensible Stylesheet Language Transformations) is the recommended style sheet language for XML.
+
+* XSLT is far more sophisticated than CSS. With XSLT you can add/remove elements and attributes to or from the output file. You can also  rearrange and sort elements, perform tests and make decisions about which elements to hide and display, and a lot more.
+
+* XSLT uses XPath to find information in an XML document.
+
+### XQuery
+
+* XQuery is to XML what SQL is to databases.
+
+* XQuery was designed to query XML data.
+
+``` 
+for $x in doc("books.xml")/bookstore/book
+where $x/price>30
+order by $x/title
+return $x/title
+```
+
+* XQuery is built on XPath expressions
+
+* XQuery is supported by all major databases
+
+### XLink and Xpointer
+
+* XLink is used to create hyperlinks in XML documents.
+
+* Any element in an XML document can behave as a link
+
+* With XLink, the links can be defined outside the linked files
+
+* There is no browser support for XLink in XML documents. However, all major browsers support XLinks in SVG.
+
+### DTD Schema
+
+* An XML document with correct syntax is called "Well Formed".
+
+* An XML document validated against a DTD is both "Well Formed" and "Valid".
+
+* DTD description of an XML, rules etc
+
+* An XML Schema describes the structure of an XML document, just like a DTD.
+
+* XML Schema is an XML-based alternative to DTD:
+
+
 
