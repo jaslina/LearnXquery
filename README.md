@@ -341,3 +341,17 @@ return if ($x/@category="CHILDREN")
 then <child>{data($x/title)}</child>
 else <adult>{data($x/title)}</adult>
 ```
+
+#### User Defined Functions
+```
+declare function prefix:function_name($parameter as datatype)
+as returnDatatype
+{
+ ...function code here...
+};
+```
+
+* Use the declare function keyword
+* The name of the function must be prefixed
+* The data type of the parameters are mostly the same as the data types defined in XML Schema
+* The body of the function must be surrounded by curly braces
